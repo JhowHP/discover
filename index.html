@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +14,12 @@
   </head>
   <body>
     <div id="container">
-
       <div id="profile">
         <img src="./assets/avatar.png" alt="Avatar para o Dark Mode" />
         <p>Jonnathan Leitão</p>
       </div>
 
-      <div id="switch">
+      <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
@@ -74,13 +73,10 @@
       </div>
 
       <footer>
-        Feito por Jonnathan <a href="mailto:jonstrond@gmail.com">Entre em Contato</a>
+        Feito por Jonnathan
+        <a href="mailto:jonstrond@gmail.com">Entre em Contato</a>
       </footer>
-
-      
     </div>
-
-    
 
     <script
       type="module"
@@ -90,5 +86,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
