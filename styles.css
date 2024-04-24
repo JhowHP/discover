@@ -183,15 +183,15 @@ footer a:hover {
 }
 
 /* MIDIA QUERIES */
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .light {
-    -bg-url: url(./assets/bg-desktop-light.jpg)
+    -bg-url: url(./assets/bg-desktop-light.jpg);
   }
-}
+} */
 
 /* animation */
 
@@ -202,7 +202,6 @@ footer a:hover {
   to {
     left: 50%;
   }
-  
 }
 
 @keyframes slide-back {
@@ -212,5 +211,4 @@ footer a:hover {
   to {
     left: 0%;
   }
-  
 }
